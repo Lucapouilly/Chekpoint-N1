@@ -10,6 +10,7 @@ mkfs -t ext4 -L DATA
 swapoff /dev/sda5
 # Formatage partirion swap et nom de l'etiquette
  mkswap /dev/sdb2
+   
  mkfs -L SWAP
 # Montage de la partition swap
  swapon /dev/sdb2
